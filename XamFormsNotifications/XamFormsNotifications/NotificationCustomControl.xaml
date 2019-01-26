@@ -1,0 +1,14 @@
+﻿<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamFormsNotifications.NotificationCustomControl"
+             x:Name="this">
+    <StackLayout
+        VerticalOptions="EndAndExpand"
+        HorizontalOptions="FillAndExpand"
+        Orientation="Horizontal"
+        BackgroundColor="Red">
+        <Label
+            HorizontalOptions="Start"
+            Text="{Binding Source={x:Reference this},Path=Message}" />
+    </StackLayout>
+</ContentView>
