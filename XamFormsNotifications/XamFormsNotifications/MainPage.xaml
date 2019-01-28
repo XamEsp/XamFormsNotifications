@@ -8,7 +8,8 @@
         <Label Text="Welcome to Xamarin.Forms!"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
-        <Button Clicked="Button_OnClicked"></Button>
+        <Button Clicked="Button_ChildClicked" Text="Open Child"/>
+        <Button Clicked="Button_OnClicked" Text="Notify!"/>
         <local:NotificationCustomControl
             Message="Test a notification!" />
     </StackLayout>

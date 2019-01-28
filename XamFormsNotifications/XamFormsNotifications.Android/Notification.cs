@@ -28,6 +28,8 @@ namespace XamFormsNotifications.Droid
          var text = view.FindViewById<TextView>(Resource.Id.text);
          text.Text = message;
 
+
+
          var toast = new Toast(_context)
          {
             Duration = ToastLength.Long,

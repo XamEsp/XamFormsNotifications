@@ -1,0 +1,19 @@
+﻿<pages:PopupPage
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamFormsNotifications.Notification"
+    BackgroundInputTransparent="True"
+    CloseWhenBackgroundIsClicked="False"
+    BackgroundColor="Transparent">
+    <StackLayout
+        Spacing="0"
+        Padding="8"
+        BackgroundColor="Green"
+        VerticalOptions="EndAndExpand"
+        HorizontalOptions="FillAndExpand">
+        <Label
+            x:Name="MessageLabel"
+            HorizontalOptions="StartAndExpand"/>
+    </StackLayout>
+</pages:PopupPage>
